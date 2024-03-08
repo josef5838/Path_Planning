@@ -14,7 +14,9 @@ The Q-learning (`Q_learning.py`) file implements a model-free reinforcement lear
 
 ## Run
 
-Simply follow the steps in each of the jupyternotebooks.
+Simply follow the steps in each of the jupyter notebooks.
+
+### To keep things smooth and breezy, all the magic in these notebooks happens with the wand-waving of common libraries, so feel free to dance through them in any of your beloved ML environments. But just for that extra sprinkle of completeness, I've conjured up a requirements file. Enjoy!
 
 ## Comparison Between A-star and Q-learning
 Algorithm Type: A-star is a search algorithm, while Q-learning is a reinforcement learning algorithm.
