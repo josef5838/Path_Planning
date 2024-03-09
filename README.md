@@ -2,6 +2,8 @@
 
 This repository contains two distinct path planning solutions for problems 1-3, implemented using the A-star algorithm and Q-learning. These algorithms are designed to navigate from a start point to an end point efficiently in a given environment.
 
+#### Please look at A-star.ipynb first as this one solves every subtasks required in the assignment. The Q-Learning one is more like a playground. 
+
 ## Algorithms
 
 ### A-star Algorithm
@@ -20,6 +22,9 @@ Simply follow the steps in each of the jupyter notebooks.
 
 ## Comparison Between A-star and Q-learning
 Type: A-star is a deterministic search algorithm, while Q-learning is a reinforcement learning algorithm that is stochastic in nature.
-Environment Knowledge: A-star requires knowledge of the environment for its heuristic function, whereas Q-learning does not require a model of the environment and can learn optimal paths through interaction.
+
+Environment Requirement: A-star requires knowledge of the environment for its heuristic function, whereas Q-learning does not require a model of the environment and can learn optimal paths through interaction.
+
 Efficiency: A-star is generally more efficient in deterministic environments. Q-learning is better suited for stochastic environments or where the environment model cannot be fully known in advance.
+
 Adaptability: Q-learning can adapt to changes in the environment and is also suitable for dynamic environments. A-star's performance is fixed once the heuristic is defined and does not adapt to changes in the environment.
