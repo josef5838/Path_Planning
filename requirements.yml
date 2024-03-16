@@ -1,9 +1,0 @@
-name: path_planning_env
-channels:
-  - defaults
-dependencies:
-  - python=3.8  # Specify the Python version you are using
-  - numpy
-  - matplotlib
-  - tqdm
-  - pip
