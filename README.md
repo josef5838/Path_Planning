@@ -2,9 +2,12 @@
 ### Haoliang Shang hshang@ethz.ch
 This repository contains two distinct path planning solutions for problems 1-3, implemented using the A-star algorithm and Q-learning. These algorithms are designed to navigate from a start point to an end point efficiently in a given environment.
 
-#### Please look at A-star.ipynb first as this one solves every subtasks required in the assignment while the Q-Learning one is more like a playground. 
+<u>Please look at A-star.ipynb first as this one solves every subtasks required in the assignment while the Q-Learning one is more like a playground.</u> 
 
-## Algorithms
+</br>
+</br>
+
+## 1. Algorithms
 
 ### A-star Algorithm
 
@@ -14,12 +17,15 @@ The A-star (`A_star.ipynb`) algorithm is a heuristic-based search algorithm that
 
 The Q-learning (`Q_learning.ipynb`) file implements a reinforcement learning algorithm that learns the value of actions in states without requiring a model of the environment. It updates the value (Q) of taking an action in a particular state based on the reward received and the future rewards expected. This approach is more adaptable to unknown environments.
 
-## Content
+</br>
+</br>
+
+## 2. Content
 
 There are some optional steps which I found intuitive to do to either further improve my algorithms or to demonstrate my skills. Please ignore those if you find it unnecessary.
 
 ### A_star.ipynb
-* (OPTIONAL) Read in Grid with OpenCV
+* (Optional) Read in the Grid with OpenCV
 * Basic Path Planning Implementation
     * Task 1 & 2: Create a 5x5 grid with the obstacles, mark start and end points 
     * Task 3: Algorithm Implementation
@@ -35,13 +41,19 @@ There are some optional steps which I found intuitive to do to either further im
 * Integration of Waypoints
 * Varying Terrain
 
-## Run
+</br>
+</br>
+
+## 3. Run
 
 Simply follow the steps in each of the jupyter notebooks.
 
-#### To keep things smooth and breezy, all the magic in these notebooks happens with the wand-waving of common libraries, so feel free to play through them in any of your beloved ML environments. But just for completeness, I've conjured up a requirements file. Enjoy!
+<u>To keep things smooth and simple, all the magic in these notebooks happens with the wand-waving of common libraries, so feel free to play through them in any of your beloved ML environments. But just for completeness, I've conjured up a requirements.txt file. Enjoy!</u>
 
-## Comparison Between A-star and Q-learning
+</br>
+</br>
+
+## 4. Comparison Between A-star and Q-learning
 Type: A-star is a deterministic search algorithm, while Q-learning is a reinforcement learning algorithm that is stochastic in nature.
 
 Environment Requirement: A-star requires knowledge of the environment for its heuristic function, whereas Q-learning does not require a model of the environment and can learn optimal paths through interaction.
