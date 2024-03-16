@@ -1,8 +1,8 @@
 # Path Planning Algorithms
-
+### Haoliang Shang hshang@ethz.ch
 This repository contains two distinct path planning solutions for problems 1-3, implemented using the A-star algorithm and Q-learning. These algorithms are designed to navigate from a start point to an end point efficiently in a given environment.
 
-#### Please look at A-star.ipynb first as this one solves every subtasks required in the assignment. The Q-Learning one is more like a playground. 
+#### Please look at A-star.ipynb first as this one solves every subtasks required in the assignment while the Q-Learning one is more like a playground. 
 
 ## Algorithms
 
@@ -13,6 +13,27 @@ The A-star (`A_star.ipynb`) algorithm is a heuristic-based search algorithm that
 ### Q-learning
 
 The Q-learning (`Q_learning.ipynb`) file implements a reinforcement learning algorithm that learns the value of actions in states without requiring a model of the environment. It updates the value (Q) of taking an action in a particular state based on the reward received and the future rewards expected. This approach is more adaptable to unknown environments.
+
+## Content
+
+There are some optional steps which I found intuitive to do to either further improve my algorithms or to demonstrate my skills. Please ignore those if you find it unnecessary.
+
+### A_star.ipynb
+* (OPTIONAL) Read in Grid with OpenCV
+* Basic Path Planning Implementation
+    * Task 1 & 2: Create a 5x5 grid with the obstacles, mark start and end points 
+    * Task 3: Algorithm Implementation
+    * Task 4: Visualization
+* Integration of Waypoints
+    * (Optional) Avoid passing through the finish point
+* Varying Terrain
+    * (Optional) New Elevation Map
+
+
+### Q_learning.ipynb
+* Basic Path Planning Implementation
+* Integration of Waypoints
+* Varying Terrain
 
 ## Run
 
